@@ -68,6 +68,7 @@ def compress(choose, des_dir, src_dir, file_list):
         w, h = img.size
         img.thumbnail((int(w/scale), int(h/scale)))
         img.save(des_dir + infile)
+
 def compress_photo():
     '''调用压缩图片的函数
     '''
